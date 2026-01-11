@@ -9,8 +9,8 @@ from functools import partial
 from ast import literal_eval
 import traj_dist.distance as tdist
 
-from utils1.cellspace import CellSpace
-from utils1.tools import lonlat2meters
+from utils.cellspace import CellSpace
+from utils.tools import lonlat2meters
 
 
 def inrange(lon, lat):
@@ -170,4 +170,5 @@ if __name__ == "__main__":
     """
     split_data()
     traj_simi_computation('lcss')  # ['hausdorff','sspd','discret_frechet']
+
 
